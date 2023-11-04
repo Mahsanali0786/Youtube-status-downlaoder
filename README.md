@@ -9,7 +9,8 @@ Welcome to the Youtube/Status Saver project! This repository allows you to downl
 You can click the "Download Now" button above to download the latest version of the APK.
 
 ## Demo Video
-![Uploading ezgif.com-optimize.gif…]()
+![Alt Text](https://raw.githubusercontent.com/Mahsanali0786/Youtube-status-downlaoder/main/ezgif.com-optimize.gif)
+
 
 You can watch a demo of the application by clicking the link below:
 
