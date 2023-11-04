@@ -10,66 +10,40 @@
             object-fit: cover; /* Set the image box to fit cover */
             height: 200px; /* Define a fixed height for the image box */
         }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px; /* Adjust the height as needed */
+        }
     </style>
 </head>
 <body>
     <header class="bg-dark text-light text-center py-4">
         <h1>Youtube/status saver</h1>
     </header>
+    <div class="container">
+        <div class="text-center mt-5">
+            <a href="https://github.com/Mahsanali0786/Youtube-status-downlaoder/blob/main/status_1.0.0.apk" class="btn btn-primary" download>Download Now</a>
+        </div>
+    </div>
 
     <div class="container mt-4">
         <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/Mahsanali0786/Resume-app/main/assets/image1.png" class="card-img-top" alt="Image 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Image 1</h5>
-                        <p class="card-text">This is the description for Image 1.</p>
-                        <p class="card-text">Index: 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/Mahsanali0786/Resume-app/main/assets/image2.png" class="card-img-top" alt="Image 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Image 2</h5>
-                        <p class="card-text">This is the description for Image 2.</p>
-                        <p class="card-text">Index: 2</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/Mahsanali0786/Resume-app/main/assets/image3.png" class="card-img-top" alt="Image 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Image 3</h5>
-                        <p class="card-text">This is the description for Image 3.</p>
-                        <p class="card-text">Index: 3</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/Mahsanali0786/Resume-app/main/assets/image4.png" class="card-img-top" alt="Image 4">
-                    <div class="card-body">
-                        <h5 class="card-title">Image 4</h5>
-                        <p class="card-text">This is the description for Image 4.</p>
-                        <p class="card-text">Index: 4</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/Mahsanali0786/Resume-app/main/assets/image5.png" class="card-img-top" alt="Image 5">
-                    <div class="card-body">
-                        <h5 class="card-title">Image 5</h5>
-                        <p class="card-text">This is the description for Image 5.</p>
-                        <p class="card-text">Index: 5</p>
-                    </div>
-                </div>
-            </div>
             <!-- Add more cards for additional images -->
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="video-container">
+                    <video controls width="800" height="450">
+                        <source src="your_video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
         </div>
     </div>
 
